@@ -1,0 +1,148 @@
+{
+  "employees": [
+    {
+      "id": "E001",
+      "name": "Robert Johnson",
+      "role": "Underground Miner",
+      "department": "Mining Operations",
+      "shift": "Day Shift (6AM-2PM)",
+      "phone": "+1-555-0101",
+      "email": "robert.johnson@coalsight.com",
+      "employmentDate": "2019-03-15",
+      "certifications": ["Mining Safety", "Emergency Response", "Hazmat Level 1"],
+      "experienceYears": 8
+    },
+    {
+      "id": "E002",
+      "name": "Michael Davis",
+      "role": "Underground Miner",
+      "department": "Mining Operations",
+      "shift": "Night Shift (10PM-6AM)",
+      "phone": "+1-555-0102",
+      "email": "michael.davis@coalsight.com",
+      "employmentDate": "2020-07-22",
+      "certifications": ["Mining Safety", "First Aid"],
+      "experienceYears": 5
+    },
+    {
+      "id": "E003",
+      "name": "James Wilson",
+      "role": "Roof Bolter",
+      "department": "Mining Operations",
+      "shift": "Day Shift (6AM-2PM)",
+      "phone": "+1-555-0103",
+      "email": "james.wilson@coalsight.com",
+      "employmentDate": "2018-01-10",
+      "certifications": ["Mining Safety", "Roof Support Specialist", "Equipment Operation"],
+      "experienceYears": 10
+    },
+    {
+      "id": "E004",
+      "name": "David Brown",
+      "role": "Equipment Operator",
+      "department": "Equipment Operations",
+      "shift": "Afternoon Shift (2PM-10PM)",
+      "phone": "+1-555-0104",
+      "email": "david.brown@coalsight.com",
+      "employmentDate": "2021-05-18",
+      "certifications": ["Heavy Equipment Operation", "Mining Safety", "Hydraulics"],
+      "experienceYears": 4
+    },
+    {
+      "id": "E005",
+      "name": "Christopher Lee",
+      "role": "Equipment Operator",
+      "department": "Equipment Operations",
+      "shift": "Day Shift (6AM-2PM)",
+      "phone": "+1-555-0105",
+      "email": "christopher.lee@coalsight.com",
+      "employmentDate": "2019-11-03",
+      "certifications": ["Heavy Equipment Operation", "Mining Safety", "Preventive Maintenance"],
+      "experienceYears": 6
+    },
+    {
+      "id": "E006",
+      "name": "William Garcia",
+      "role": "Shuttle Car Operator",
+      "department": "Transportation",
+      "shift": "Night Shift (10PM-6AM)",
+      "phone": "+1-555-0106",
+      "email": "william.garcia@coalsight.com",
+      "employmentDate": "2022-02-14",
+      "certifications": ["Mining Safety", "Vehicle Operation"],
+      "experienceYears": 3
+    },
+    {
+      "id": "E007",
+      "name": "Richard Martinez",
+      "role": "Conveyor Operator",
+      "department": "Transportation",
+      "shift": "Afternoon Shift (2PM-10PM)",
+      "phone": "+1-555-0107",
+      "email": "richard.martinez@coalsight.com",
+      "employmentDate": "2020-09-01",
+      "certifications": ["Mining Safety", "Belt Systems", "Electrical Basics"],
+      "experienceYears": 5
+    },
+    {
+      "id": "E008",
+      "name": "Thomas Anderson",
+      "role": "Maintenance Technician",
+      "department": "Maintenance",
+      "shift": "Day Shift (6AM-2PM)",
+      "phone": "+1-555-0108",
+      "email": "thomas.anderson@coalsight.com",
+      "employmentDate": "2017-06-20",
+      "certifications": ["Mining Safety", "Mechanical Systems", "Welding", "Electrical Systems"],
+      "experienceYears": 12
+    },
+    {
+      "id": "E009",
+      "name": "Daniel Taylor",
+      "role": "Electrician",
+      "department": "Maintenance",
+      "shift": "Afternoon Shift (2PM-10PM)",
+      "phone": "+1-555-0109",
+      "email": "daniel.taylor@coalsight.com",
+      "employmentDate": "2019-04-11",
+      "certifications": ["Mining Safety", "Electrical Systems", "High Voltage", "PLC Programming"],
+      "experienceYears": 7
+    },
+    {
+      "id": "E010",
+      "name": "Matthew Thomas",
+      "role": "Safety Inspector",
+      "department": "Safety & Compliance",
+      "shift": "Day Shift (6AM-2PM)",
+      "phone": "+1-555-0110",
+      "email": "matthew.thomas@coalsight.com",
+      "employmentDate": "2018-08-05",
+      "certifications": ["Mining Safety", "MSHA Certification", "Hazard Analysis", "Emergency Response"],
+      "experienceYears": 9
+    },
+    {
+      "id": "E011",
+      "name": "Joseph Moore",
+      "role": "Ventilation Technician",
+      "department": "Safety & Compliance",
+      "shift": "Night Shift (10PM-6AM)",
+      "phone": "+1-555-0111",
+      "email": "joseph.moore@coalsight.com",
+      "employmentDate": "2021-01-20",
+      "certifications": ["Mining Safety", "Ventilation Systems", "Air Quality Monitoring"],
+      "experienceYears": 4
+    },
+    {
+      "id": "E012",
+      "name": "Charles Jackson",
+      "role": "Geologist",
+      "department": "Planning & Analysis",
+      "shift": "Day Shift (6AM-2PM)",
+      "phone": "+1-555-0112",
+      "email": "charles.jackson@coalsight.com",
+      "employmentDate": "2019-10-15",
+      "certifications": ["Mining Safety", "Geology", "Survey Analysis"],
+      "experienceYears": 6
+    }
+  ]
+}

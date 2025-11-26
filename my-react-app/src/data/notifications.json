@@ -1,0 +1,148 @@
+{
+  "notifications": [
+    {
+      "id": "N001",
+      "type": "alert",
+      "title": "Critical Hazard Reported",
+      "message": "Roof instability detected in Section 3A - East Wing. Area evacuated pending inspection.",
+      "timestamp": "2025-11-26T07:35:00Z",
+      "priority": "high",
+      "targetRole": "all",
+      "isRead": false,
+      "relatedEntityType": "hazard",
+      "relatedEntityId": "H002"
+    },
+    {
+      "id": "N002",
+      "type": "alert",
+      "title": "Gas Leak - Section 4B",
+      "message": "Methane levels elevated near ventilation shaft. Ventilation team responding. Avoid area until cleared.",
+      "timestamp": "2025-11-26T08:20:00Z",
+      "priority": "high",
+      "targetRole": "all",
+      "isRead": false,
+      "relatedEntityType": "hazard",
+      "relatedEntityId": "H001"
+    },
+    {
+      "id": "N003",
+      "type": "maintenance",
+      "title": "Equipment Maintenance Alert",
+      "message": "Ventilation Fan VF-1 maintenance due tomorrow. Ensure backup ventilation is operational.",
+      "timestamp": "2025-11-26T06:00:00Z",
+      "priority": "medium",
+      "targetRole": "admin",
+      "isRead": true,
+      "relatedEntityType": "equipment",
+      "relatedEntityId": "EQ008"
+    },
+    {
+      "id": "N004",
+      "type": "info",
+      "title": "Shift Change Reminder",
+      "message": "Afternoon shift begins at 2:00 PM. All personnel must complete safety briefing before entering mine.",
+      "timestamp": "2025-11-26T13:30:00Z",
+      "priority": "low",
+      "targetRole": "employee",
+      "isRead": false,
+      "relatedEntityType": null,
+      "relatedEntityId": null
+    },
+    {
+      "id": "N005",
+      "type": "safety",
+      "title": "Weekly Safety Meeting",
+      "message": "Mandatory safety meeting scheduled for Friday, November 29 at 8:00 AM in the main conference room.",
+      "timestamp": "2025-11-26T05:00:00Z",
+      "priority": "medium",
+      "targetRole": "all",
+      "isRead": true,
+      "relatedEntityType": null,
+      "relatedEntityId": null
+    },
+    {
+      "id": "N006",
+      "type": "success",
+      "title": "Hazard Resolved",
+      "message": "Belt Line 5 overheating issue has been resolved. Roller replaced and system operational.",
+      "timestamp": "2025-11-25T19:50:00Z",
+      "priority": "low",
+      "targetRole": "all",
+      "isRead": true,
+      "relatedEntityType": "hazard",
+      "relatedEntityId": "H004"
+    },
+    {
+      "id": "N007",
+      "type": "maintenance",
+      "title": "Continuous Miner CM-2 Down",
+      "message": "Continuous Miner CM-2 is under maintenance. Cutting head motor replacement in progress. Expected completion: November 30.",
+      "timestamp": "2025-11-24T10:00:00Z",
+      "priority": "medium",
+      "targetRole": "admin",
+      "isRead": true,
+      "relatedEntityType": "equipment",
+      "relatedEntityId": "EQ002"
+    },
+    {
+      "id": "N008",
+      "type": "info",
+      "title": "Production Target Update",
+      "message": "Great work team! We're at 92% of monthly production target with 4 days remaining.",
+      "timestamp": "2025-11-26T07:00:00Z",
+      "priority": "low",
+      "targetRole": "all",
+      "isRead": false,
+      "relatedEntityType": null,
+      "relatedEntityId": null
+    },
+    {
+      "id": "N009",
+      "type": "alert",
+      "title": "Ventilation Issue Reported",
+      "message": "Reduced air circulation in Section 5D. Investigation underway. Non-essential personnel advised to avoid area.",
+      "timestamp": "2025-11-26T23:05:00Z",
+      "priority": "high",
+      "targetRole": "all",
+      "isRead": false,
+      "relatedEntityType": "hazard",
+      "relatedEntityId": "H007"
+    },
+    {
+      "id": "N010",
+      "type": "safety",
+      "title": "Weather Advisory",
+      "message": "Heavy rain expected tomorrow. Ensure all drainage systems are clear and monitor water accumulation.",
+      "timestamp": "2025-11-25T16:00:00Z",
+      "priority": "medium",
+      "targetRole": "admin",
+      "isRead": true,
+      "relatedEntityType": null,
+      "relatedEntityId": null
+    },
+    {
+      "id": "N011",
+      "type": "success",
+      "title": "Safety Milestone Achieved",
+      "message": "Congratulations! 100 days without a lost-time incident. Keep up the excellent safety practices!",
+      "timestamp": "2025-11-25T08:00:00Z",
+      "priority": "low",
+      "targetRole": "all",
+      "isRead": true,
+      "relatedEntityType": null,
+      "relatedEntityId": null
+    },
+    {
+      "id": "N012",
+      "type": "info",
+      "title": "New PPE Distribution",
+      "message": "New helmets with integrated communication systems available at equipment room. Exchange during next shift.",
+      "timestamp": "2025-11-24T12:00:00Z",
+      "priority": "low",
+      "targetRole": "employee",
+      "isRead": true,
+      "relatedEntityType": null,
+      "relatedEntityId": null
+    }
+  ]
+}

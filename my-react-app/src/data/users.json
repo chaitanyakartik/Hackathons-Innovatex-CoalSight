@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "id": "U001",
+      "username": "admin",
+      "password": "admin123",
+      "role": "admin",
+      "name": "John Martinez",
+      "email": "john.martinez@coalsight.com"
+    },
+    {
+      "id": "U002",
+      "username": "supervisor1",
+      "password": "super123",
+      "role": "admin",
+      "name": "Sarah Thompson",
+      "email": "sarah.thompson@coalsight.com"
+    },
+    {
+      "id": "E001",
+      "username": "miner1",
+      "password": "miner123",
+      "role": "employee",
+      "name": "Robert Johnson",
+      "email": "robert.johnson@coalsight.com"
+    },
+    {
+      "id": "E002",
+      "username": "miner2",
+      "password": "miner123",
+      "role": "employee",
+      "name": "Michael Davis",
+      "email": "michael.davis@coalsight.com"
+    },
+    {
+      "id": "E003",
+      "username": "miner3",
+      "password": "miner123",
+      "role": "employee",
+      "name": "James Wilson",
+      "email": "james.wilson@coalsight.com"
+    },
+    {
+      "id": "E004",
+      "username": "operator1",
+      "password": "oper123",
+      "role": "employee",
+      "name": "David Brown",
+      "email": "david.brown@coalsight.com"
+    },
+    {
+      "id": "E005",
+      "username": "operator2",
+      "password": "oper123",
+      "role": "employee",
+      "name": "Christopher Lee",
+      "email": "christopher.lee@coalsight.com"
+    }
+  ]
+}

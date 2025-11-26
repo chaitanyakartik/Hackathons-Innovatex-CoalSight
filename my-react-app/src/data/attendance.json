@@ -1,0 +1,154 @@
+{
+  "attendance": [
+    {
+      "id": "A001",
+      "employeeId": "E001",
+      "date": "2025-11-26",
+      "checkIn": "05:52:00",
+      "checkOut": "14:05:00",
+      "status": "Present",
+      "location": "Mine Entrance - Gate A",
+      "notes": ""
+    },
+    {
+      "id": "A002",
+      "employeeId": "E002",
+      "date": "2025-11-26",
+      "checkIn": "21:58:00",
+      "checkOut": null,
+      "status": "Present",
+      "location": "Mine Entrance - Gate A",
+      "notes": ""
+    },
+    {
+      "id": "A003",
+      "employeeId": "E003",
+      "date": "2025-11-26",
+      "checkIn": "06:15:00",
+      "checkOut": "14:10:00",
+      "status": "Late",
+      "location": "Mine Entrance - Gate A",
+      "notes": "Traffic delay"
+    },
+    {
+      "id": "A004",
+      "employeeId": "E004",
+      "date": "2025-11-26",
+      "checkIn": "13:55:00",
+      "checkOut": null,
+      "status": "Present",
+      "location": "Equipment Bay",
+      "notes": ""
+    },
+    {
+      "id": "A005",
+      "employeeId": "E005",
+      "date": "2025-11-26",
+      "checkIn": "05:58:00",
+      "checkOut": "14:02:00",
+      "status": "Present",
+      "location": "Equipment Bay",
+      "notes": ""
+    },
+    {
+      "id": "A006",
+      "employeeId": "E006",
+      "date": "2025-11-26",
+      "checkIn": null,
+      "checkOut": null,
+      "status": "Absent",
+      "location": null,
+      "notes": "Called in sick"
+    },
+    {
+      "id": "A007",
+      "employeeId": "E007",
+      "date": "2025-11-26",
+      "checkIn": "14:03:00",
+      "checkOut": null,
+      "status": "Present",
+      "location": "Mine Entrance - Gate B",
+      "notes": ""
+    },
+    {
+      "id": "A008",
+      "employeeId": "E008",
+      "date": "2025-11-26",
+      "checkIn": "06:00:00",
+      "checkOut": "14:15:00",
+      "status": "Present",
+      "location": "Maintenance Shop",
+      "notes": ""
+    },
+    {
+      "id": "A009",
+      "employeeId": "E009",
+      "date": "2025-11-26",
+      "checkIn": "14:05:00",
+      "checkOut": null,
+      "status": "Present",
+      "location": "Maintenance Shop",
+      "notes": ""
+    },
+    {
+      "id": "A010",
+      "employeeId": "E010",
+      "date": "2025-11-26",
+      "checkIn": "05:45:00",
+      "checkOut": "14:00:00",
+      "status": "Present",
+      "location": "Safety Office",
+      "notes": ""
+    },
+    {
+      "id": "A011",
+      "employeeId": "E011",
+      "date": "2025-11-26",
+      "checkIn": "22:05:00",
+      "checkOut": null,
+      "status": "Present",
+      "location": "Ventilation Control Room",
+      "notes": ""
+    },
+    {
+      "id": "A012",
+      "employeeId": "E012",
+      "date": "2025-11-26",
+      "checkIn": null,
+      "checkOut": null,
+      "status": "No Data",
+      "location": null,
+      "notes": "Field survey - off-site"
+    },
+    {
+      "id": "A013",
+      "employeeId": "E001",
+      "date": "2025-11-25",
+      "checkIn": "05:55:00",
+      "checkOut": "14:00:00",
+      "status": "Present",
+      "location": "Mine Entrance - Gate A",
+      "notes": ""
+    },
+    {
+      "id": "A014",
+      "employeeId": "E002",
+      "date": "2025-11-25",
+      "checkIn": "22:00:00",
+      "checkOut": "06:05:00",
+      "status": "Present",
+      "location": "Mine Entrance - Gate A",
+      "notes": ""
+    },
+    {
+      "id": "A015",
+      "employeeId": "E003",
+      "date": "2025-11-25",
+      "checkIn": "06:02:00",
+      "checkOut": "14:08:00",
+      "status": "Present",
+      "location": "Mine Entrance - Gate A",
+      "notes": ""
+    }
+  ]
+}
