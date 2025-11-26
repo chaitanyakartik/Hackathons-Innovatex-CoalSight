@@ -100,9 +100,9 @@ const HazardsPage = () => {
           <tbody>
             {filteredHazards.map((hazard) => (
               <tr key={hazard._id}>
-                <td className="hazard-id">{hazard.hazardId}</td>
-                <td>{hazard.reporterName}</td>
-                <td>{hazard.category}</td>
+                <td className="hazard-id">{hazard.id}</td>
+                <td>{hazard.reportedByName}</td>
+                <td>{hazard.type}</td>
                 <td>
                   <span className={getSeverityClass(hazard.severity)}>
                     {hazard.severity}
@@ -140,7 +140,7 @@ const HazardsPage = () => {
             <div className="modal-body">
               <div className="detail-row">
                 <label>ID:</label>
-                <span>{selectedHazard.hazardId}</span>
+                <span>{selectedHazard.id}</span>
               </div>
               
               <div className="detail-row">
@@ -155,7 +155,7 @@ const HazardsPage = () => {
               
               <div className="detail-row">
                 <label>Type:</label>
-                <span>{selectedHazard.category}</span>
+                <span>{selectedHazard.type}</span>
               </div>
               
               <div className="detail-row">
