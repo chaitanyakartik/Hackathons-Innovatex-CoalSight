@@ -6,15 +6,19 @@ const hazardSchema = new mongoose.Schema({
     required: true,
     unique: true
   },
-  title: {
+  reportedBy: {
     type: String,
     required: true
   },
-  description: {
+  reportedByName: {
     type: String,
     required: true
   },
-  location: {
+  timestamp: {
+    type: String,
+    required: true
+  },
+  type: {
     type: String,
     required: true
   },
@@ -23,26 +27,31 @@ const hazardSchema = new mongoose.Schema({
     enum: ['Low', 'Medium', 'High', 'Critical'],
     required: true
   },
+  location: {
+    type: String,
+    required: true
+  },
+  description: {
+    type: String,
+    required: true
+  },
   status: {
     type: String,
-    enum: ['Pending', 'In Progress', 'Resolved'],
-    required: true
-  },
-  reportedBy: {
-    type: String,
-    required: true
-  },
-  reportedDate: {
-    type: String,
+    enum: ['Pending', 'In-progress', 'Resolved'],
     required: true
   },
   assignedTo: {
     type: String
   },
-  resolvedDate: {
-    type: String
+  images: {
+    type: [String],
+    default: []
   },
-  image: {
+  actionTaken: {
+    type: String,
+    default: ''
+  },
+  resolvedAt: {
     type: String
   }
 }, {
